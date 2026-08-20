@@ -1,5 +1,4 @@
-﻿oracleJdk-26/
-node_modules/
+﻿node_modules/
 .jdk/
 target/
 .idea/
