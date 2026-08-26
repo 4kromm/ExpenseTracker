@@ -1,4 +1,4 @@
-import { useLocalStorage } from './useLocalStorage'
+import { useLocalStorage } from '../utils/useLocalStorage'
 
 export function useAuth() {
   const [pinHash, setPinHash] = useLocalStorage<string | null>('expense-tracker:pin', null)
